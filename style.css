@@ -171,10 +171,6 @@ input {
     flex-shrink: 1;  /* Permite que los elementos reduzcan su tamaño si es necesario */
 }
 
-.form-wrap {
-    overflow: hidden; /* Para cortar cualquier contenido que se salga */
-}
-
 .image-wrap img {
     width: auto;
     height: 100%;
