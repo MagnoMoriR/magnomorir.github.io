@@ -49,11 +49,11 @@ table {
 /*--------------------------------*/
 
 /* START OF VARIABLE DECLARATION */
-
 :root{
     --main-company-color: #eb058c;
     --sec-company-color: #92a77b;
 }
+/* END OF VARIABLE DECLARATION*/
 
 *{
     padding: 0;
@@ -62,19 +62,23 @@ table {
     font-family: "Open Sans", serif;
 }
 
+.page-skeleton{
+    display: block
+}
+
 .simulator {    
     width: 100%;
     min-height: 100vh;
-    overflow: hidden;
     background-color: #eff1f3;
-    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 12rem;
+    padding-top: 1rem;
 }
 
 .title {
-    color: var(--sec-company-color);
+    color: var(--main-company-color);
     font-weight: 800;
     font-size: 1.4rem;
 }
@@ -83,6 +87,10 @@ table {
     color: var(--sec-company-color);
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+.regular-text{
+    font-size: medium;
 }
 
 input {
@@ -114,7 +122,7 @@ input {
 }
 
 .form-box {
-    position: absolute;
+    position: relative;
     width: 80%;
     height: 640px;
     border-radius: 3.3rem;
@@ -167,8 +175,8 @@ input {
 }
 
 .form-wrap > * {
-    max-width: 100%; /* Asegúrate de que los hijos no excedan el ancho del contenedor */
-    flex-shrink: 1;  /* Permite que los elementos reduzcan su tamaño si es necesario */
+    max-width: 100%;
+    flex-shrink: 1;
 }
 
 .image-wrap img {
@@ -192,6 +200,10 @@ form {
 .finan-rate {
     display: flex;
     gap: 10px;
+}
+
+.form-content--group h2{
+    text-align: center;
 }
 
 .form-content--group--finan {
@@ -232,6 +244,60 @@ form {
     border: none;
     font-size: 1.2rem;
     bottom: 10px;
+}
+
+.advantages{
+    display: block;
+    min-height: 45vh;
+}
+
+.advantages-header{
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.advantages-cards-wrap{
+    display: flex;
+}
+
+.tarjetas{
+    display:flex;
+    justify-content: center;
+
+}
+
+.tarjeta{
+    display:flex;
+    width: 25%;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items:center;
+    border: none;
+}
+
+.advantages-card-image{
+    padding-bottom: 10px;
+}
+
+.advantages-card-text{
+    font-size: large;
+    text-align: center;
+}
+
+.separator{
+    border-right-width: 2px !important;
+    border-right-color: #757575;
+    border-right-style: solid !important;
+}
+
+.footer{
+    display: block;
+    background-color: var(--main-company-color);
+    width: 100%;
+    min-height: 40vh;
 }
 
 /* Responsive Design */
