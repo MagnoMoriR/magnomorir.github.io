@@ -265,7 +265,6 @@ form {
 .tarjetas{
     display:flex;
     justify-content: center;
-
 }
 
 .tarjeta{
@@ -287,10 +286,16 @@ form {
     text-align: center;
 }
 
-.separator{
+.separator-right{
     border-right-width: 2px !important;
     border-right-color: #757575;
     border-right-style: solid !important;
+}
+
+.separator-bottom{
+    border-bottom-width: 2px !important;
+    border-bottom-color: #757575;
+    border-bottom-style: solid !important;
 }
 
 .footer{
@@ -299,6 +304,76 @@ form {
     width: 100%;
     min-height: 40vh;
 }
+
+.tarjetas-footer{
+    width: 85%;
+    justify-self:center;
+    padding-top: 40px;
+}
+
+.footer-icon{
+    color: white;
+}
+
+.tarjeta-header{
+    color: white;  
+    border-bottom: 1px solid;  
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.tarjeta-header h3{
+    font-size: 21px;
+}
+
+.parr-line{
+    color: white;
+    
+}
+
+.parr-line a{
+    color: white;
+}
+
+.tarjeta-footer{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.socials-widget{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials-widget-icon{
+    padding: 8px;
+    font-size: 2em;
+    background-image: linear-gradient(#fff,#fff);
+    background-repeat: no-repeat;
+}
+
+.icon-facebook{
+    padding-left: -10px;
+    color: blue;
+    background-size: 50% 40%;
+    background-position: 50% 57%;   
+}
+
+.icon-youtube{
+    color:red;
+    background-position: center;
+    background-size: 50% 30%;
+}
+
+.icon-linkedin{
+    color: #0e76a8;
+    background-position: center;
+    background-size: 50% 42%;
+}
+
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
