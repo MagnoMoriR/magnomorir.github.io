@@ -73,8 +73,8 @@ table {
 }
 
 .header {
-    display: flex;
     position: absolute;
+    display: flex;
     width: 100%; 
     top: 0;
     left: 0;
@@ -82,7 +82,6 @@ table {
 }
 
 .header-image-wrap{
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -96,6 +95,37 @@ table {
     object-fit: cover;
 }
 
+.header-image-wrap-mobile{
+    padding-top: 40px;
+    flex-basis: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+}
+
+.header-image-wrap-mobile img{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.whatsapp-button{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+.whatsapp-button img{
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    display: none;
+}
+
 .simulator {    
     width: 100%;
     min-height: 100vh;
@@ -104,7 +134,7 @@ table {
     align-items: center;
     justify-content: center;
     padding-bottom: 12rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .form-box {
@@ -440,4 +470,14 @@ form {
         border-right-width: 0px;
         border-right-color: white;
     }
+
+    .header-image-wrap img{
+        display: none;
+    }
+
+    .header-image-wrap-mobile img{
+        display: block;
+    }
+
+
 }
