@@ -62,14 +62,28 @@ table {
     font-family: "Open Sans", serif;
 }
 
-
-
 .page-skeleton{
-    display: block;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     
+}
+
+.whatsapp-button{
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    width: 10%;
+    height:auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    z-index: 3;
+}
+
+.whatsapp-button img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .header {
@@ -80,7 +94,6 @@ table {
     top: 0;
     left: 0;
     z-index: 1;
-    border: 8px solid black;
 }
 
 .header-image-wrap{
@@ -114,13 +127,9 @@ table {
     display: none;
 }
 
-.whatsapp-button{
+.invisible-box{
     width:20%;
     height: 100%
-}
-
-.whatsapp-button img{
-    width: 12px;
 }
 
 .simulator {    
