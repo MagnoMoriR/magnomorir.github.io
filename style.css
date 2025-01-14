@@ -103,7 +103,7 @@ label{
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 15%;
+    width: 25%;
 }
 
 .header-image-wrap img{
@@ -142,7 +142,7 @@ label{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 12rem;
+    padding-bottom: 18rem;
     padding-top: 2rem;
 }
 
@@ -151,7 +151,7 @@ label{
     width: 80%;
     height: 640px;
     border-radius: 3.3rem;
-    top: 100px;
+    top: 130px;
     display: flex;
     flex-direction: row-reverse;
     gap: 2rem;
@@ -507,8 +507,17 @@ form {
     }
 }
 
-@media (max-width: 475px){
+@media (max-width: 412px){
     .advantages-header{
         padding-top: 120px;
+    }
+    .header-image-wrap-mobile{
+        flex-basis: 55%;
+    }
+}
+
+@media (max-width: 650px){
+    .header-image-wrap-mobile{
+        flex-basis: 45%;
     }
 }
