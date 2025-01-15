@@ -78,10 +78,9 @@
                                         <label for="days90">90</label>
                                     </div>
 
-                                    <div class="input-days-option">
+                                    <div class="input-days-option input-days-other">
                                         <label for="days_Other">Otro</label>
-                                        <input class="form-control" type="number" name="days" id="days_Other"
-                                            placeholder="¿Cuántos días?">
+                                        <input class="form-control" type="number" name="days" id="days_Other">
                                     </div>
                                 </div>
                             </div>
@@ -102,6 +101,7 @@
 
                             <div class="form-content--group">
                                 <div class="input-obligado">
+                                    <label for="rate" class="subtitle">Datos:</label>
                                     <input class="form-control" type="text" name="company_name" id="company"
                                         placeholder="Nombre de la empresa/cliente">
                                     <small></small>
@@ -113,12 +113,15 @@
                                     <small></small>
                                 </div>
                                 <small>*Campos opcionales</small>
-                                <button class="btn btn-outline-success btn-lg" type="button" id="calculateButton">Calcular</button>
+                            </div>
 
-                                <div class="form-content--group form-result">
-                                    <h3 id="result">Monto a abonar: </h3>
-                                    <input type="text" id="resultInput" class="form-control" placeholder="S/.0.00" readonly>
-                                </div>
+                            <div class="form-content--group">
+                                <button class="btn btn-outline-success btn-lg" type="button" id="calculateButton">Calcular</button>
+                            </div>
+
+                            <div class="form-content--group form-result">
+                                <h3 id="result">Monto a abonar: </h3>
+                                <input type="text" id="resultInput" class="form-control" placeholder="S/.0.00" readonly>
                             </div>
                             
                         </div>
