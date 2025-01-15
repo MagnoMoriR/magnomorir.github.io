@@ -26,7 +26,7 @@ calculateButton.addEventListener("click", function () {
 
     // Validar si los campos están completos
     if (isNaN(amount) || isNaN(days) || isNaN(financing) || isNaN(rate)) {
-        resultInput.value = "Por favor, completa todos los campos.";
+        resultInput.value = "S/0.00";
         return;
     }
 

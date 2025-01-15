@@ -59,6 +59,23 @@ table {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+i{
+    font-family: "Open Sans", serif;
+}
+
+small{
+    font-family: "Open Sans", serif;
+    padding-bottom: 10px;
+}
+
+p{
+    font-family: "Open Sans", serif;
+}
+
+label{
+    font-size: 1.3rem;
     font-family: "Open Sans", serif;
 }
 
@@ -69,7 +86,29 @@ table {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+<<<<<<< Updated upstream
     
+=======
+}
+
+
+
+.whatsapp-button{
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    width: 8%;
+    height:auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    z-index: 3;
+}
+
+.whatsapp-button img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+>>>>>>> Stashed changes
 }
 
 .header {
@@ -127,20 +166,25 @@ table {
 }
 
 .simulator {    
+    position:relative;
     width: 100%;
     min-height: 100vh;
     background-color: #eff1f3;
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< Updated upstream
     padding-bottom: 12rem;
+=======
+    padding-bottom: 10rem;
+>>>>>>> Stashed changes
     padding-top: 2rem;
 }
 
 .form-box {
     position: relative;
     width: 80%;
-    height: 640px;
+    height: 100%;
     border-radius: 3.3rem;
     top: 100px;
 }
@@ -158,15 +202,22 @@ table {
 }
 
 .form-content {
+<<<<<<< Updated upstream
     position: absolute;
     width: calc(100% - 4.1rem);
     height: calc(100% - 4.1rem);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+=======
+    position: relative;
+    width: 100%;
+    height: auto;
+>>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 2rem;
 }
 
 .form-content--header {
@@ -179,8 +230,51 @@ table {
 .form-wrap > * {
     max-width: 100%;
     flex-shrink: 1;
+    height: 100%;
 }
 
+<<<<<<< Updated upstream
+=======
+.form-result {
+    background-color: var(--main-company-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    border-radius: 1rem;
+    z-index: 4;
+    margin-top: 1rem;
+    bottom: -7.5rem;
+    align-self: center;
+}
+
+.form-result h3 {
+    font-family: "Open Sans", serif;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.form-result input {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    bottom: 10px;
+}
+
+.form-result input::placeholder{
+  color:gray;
+  opacity: 0.6;
+  
+}
+
+>>>>>>> Stashed changes
 .image-wrap {
     position: absolute;
     display: flex;
@@ -208,14 +302,21 @@ table {
 
 .title {
     color: var(--main-company-color);
+<<<<<<< Updated upstream
     font-weight: 800;
     font-size: 1.4rem;
+=======
+    font-weight: 700;
+    font-size: 2.2rem ;
+    font-family: "Open Sans", serif;
+>>>>>>> Stashed changes
 }
 
 .subtitle {
     color: var(--sec-company-color);
     font-size: 1.2rem;
     font-weight: 600;
+    font-family: "Open Sans", serif;
 }
 
 .regular-text{
@@ -224,15 +325,55 @@ table {
 
 input {
     font-family: "Open Sans", serif;
+<<<<<<< Updated upstream
+=======
+    font-size: 1rem;
+    margin: 0.4rem;
+    padding: 0.2rem;
+    border: gray solid 2px;
+    border-radius: 5px;
+}
+
+.input-100{
+    width: 100%;
+}
+
+.input-75{
+    width: 75%;
+}
+
+.input-small{
+    width: 70%;
+}
+
+input::placeholder{
+    font-size: 1.3rem;
+>>>>>>> Stashed changes
 }
 
 .input-days{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .input-days-option{
-    padding: 10px;
+    top: 0;
+}
+
+.button-calculate{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1rem;
+  font-family: "Open Sans", serif;
+  font-weight: 400;
 }
 
 form {
@@ -247,6 +388,15 @@ form {
     gap: 10px;
 }
 
+<<<<<<< Updated upstream
+=======
+.form-content--group{
+    display: flex;
+    flex-direction: column;
+    margin:0.4rem;
+}
+
+>>>>>>> Stashed changes
 .form-content--group h2{
     text-align: center;
 }
@@ -299,7 +449,7 @@ form {
 
 .advantages{
     display: block;
-    min-height: 45vh;
+    min-height: 40vh;
 }
 
 .advantages-header{
@@ -459,6 +609,7 @@ form {
 
     .form-wrap{
         width: 100%;
+        height: auto;
     }
 
     .tarjetas,
